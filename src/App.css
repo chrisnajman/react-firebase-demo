@@ -1,0 +1,88 @@
+* {box-sizing: border-box;}
+.App {
+  margin: 40px auto;
+  max-width: 700px;
+  padding:30px;
+  position: relative;
+  border: 1px solid #efefef;
+  box-shadow:
+  /* The top layer shadow */
+      0 1px 1px rgba(0,0,0,0.15),
+          /* The second layer */
+      0 10px 0 -5px #eee,
+          /* The second layer shadow */
+      0 10px 1px -4px rgba(0,0,0,0.15),
+          /* The third layer */
+      0 20px 0 -10px #eee,
+          /* The third layer shadow */
+      0 20px 1px -9px rgba(0,0,0,0.15);
+}
+
+.App .sign-out-top {
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
+
+.App * { 
+  margin-bottom: 10px;
+}
+
+.App span { margin-bottom: 20px;}
+
+.App h1 {
+  margin:30px 0;
+  text-align: center;
+}
+
+label, span, input { display: block;}
+button { 
+    padding: 10px;
+    font-size: 1rem;
+    background: blue;
+    border: 1px solid blue;
+    color: white;
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.sign-in-and-sign-up {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.message {
+  font-weight: 600;
+  color: red;
+  /* padding: 5px 10px; */
+  margin:0;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  background:#eee;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form input { 
+  width: 100%; 
+  margin-top:5px;
+  padding:5px;
+}
+
+form button {
+  margin-left: auto;
+}
+
+
+
+
