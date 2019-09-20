@@ -3,7 +3,7 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 const config = {
-    // Your firebase config goes here
+ // your config here
 }
 
 /* Store authenticated user in database */
